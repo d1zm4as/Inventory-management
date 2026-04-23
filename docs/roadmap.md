@@ -16,6 +16,7 @@ What already exists:
 - Initial tests for health and stock flows
 - Initial database migration
 - Next.js frontend scaffold with landing, login, dashboard, and core route shells
+- Local backend and frontend install paths are documented and verified
 
 ## Delivery Goals
 
@@ -88,6 +89,8 @@ Exit criteria:
 - health endpoint responds successfully
 - local setup steps are documented
 - the stack choices are reflected in the project docs
+- backend Django checks and migrations run in a local virtualenv
+- frontend Next.js build passes locally
 
 ### Milestone 2: Core Inventory CRUD
 

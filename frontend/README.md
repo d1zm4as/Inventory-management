@@ -35,6 +35,8 @@ Once dependencies are installed, run:
 
 ```bash
 npm install
+cp .env.example .env.local
+npm run build
 npm run dev
 ```
 

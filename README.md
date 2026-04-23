@@ -34,6 +34,30 @@ This is a good next step for a `pleno`/`senior`-leaning portfolio because it mov
 - Sentry
 - django-debug-toolbar
 
+## Local Setup
+
+Backend:
+
+```bash
+cd backend
+python3 -m venv .venv
+. .venv/bin/activate
+pip install -r requirements.txt
+cp .env.example .env
+python manage.py check
+python manage.py migrate
+python manage.py runserver
+```
+
+Frontend:
+
+```bash
+cd frontend
+npm install
+cp .env.example .env.local
+npm run dev
+```
+
 ## Core idea
 
 Build an inventory platform where users can:
